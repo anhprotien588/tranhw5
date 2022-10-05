@@ -10,12 +10,11 @@ if [ $1 -gt $2 ]
     then
 	echo $1 is larger than $2
 	Difference=$(( $1 - $2 ))
-	echo Difference = $Difference
     else
 	echo $2 is larger than $1
 	Difference=$(( $2 - $1 ))
-	echo Difference = $Difference
 fi
+        echo Difference = $Difference
 	echo
 #2
 
